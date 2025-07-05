@@ -127,6 +127,3 @@ codesync/
 > “A collaborative coding platform for pair programming, learning, and live interviews.”
 
 ---
-
-**Bhai bas isko copy-paste kar le `README.md` mein aur tera project poora shine karega 💎.**
-Chahe toh me tera GitHub README bana ke de dun with formatting. Bol.
