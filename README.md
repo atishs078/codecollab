@@ -79,7 +79,9 @@ JWT_SECRET=supersecretkey
 
 | Dashboard View                       | Live Collaboration                   |
 | ------------------------------------ | ------------------------------------ |
-|![image](https://github.com/user-attachments/assets/ccb64f1b-c3d2-4e13-aa29-a3ab1fad3c35)
+|![image](https://github.com/user-attachments/assets/ccb64f1b-c3d2-4e13-aa29-a3ab1fad3c35)|
+|![image](https://github.com/user-attachments/assets/b7dd4d20-5794-4f4b-ab8b-0601f507268d)|
+
 
 
 ---
