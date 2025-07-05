@@ -1,70 +1,132 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🚀 CodeSync – Real-time Code Collaboration Platform
 
-## Available Scripts
+> A Google Docs–like real-time collaborative code editor built using **MERN stack**, **WebSockets**, and **JWT Auth**.
 
-In the project directory, you can run:
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 🌟 Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* 🔐 **JWT-based Authentication** (Login / Signup)
+* 👥 **Join/Create Rooms** with unique Room ID
+* 💻 **Live Code Editor** (JS + Python support)
+* ⚡ **Real-Time Syncing** using Socket.io
+* 💾 **Auto Save Code** to MongoDB every 5 seconds
+* 🧠 **Run Code** on the server (Node.js + Python)
+* 📜 **Dashboard** to view/edit/delete previous rooms
+* 🧑‍🤝‍🧑 **Active Users Sidebar** with avatars
+* ✍️ **Live Typing Indicator**
+* 📋 **Copy Room Code Button**
+* 📱 **Fully Responsive UI**
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🛠️ Tech Stack
 
-### `npm run build`
+| Tech                | Purpose                 |
+| ------------------- | ----------------------- |
+| React.js            | Frontend                |
+| Node.js             | Backend Server          |
+| Express.js          | API Routing             |
+| MongoDB             | Database                |
+| Socket.io           | Real-Time Communication |
+| JSON Web Token      | User Auth               |
+| Ace Editor / Monaco | Code Editor UI          |
+| Tailwind CSS        | Styling (optional)      |
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 📦 Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+git clone https://github.com/yourusername/codesync.git
+cd codesync
+```
 
-### `npm run eject`
+#### 📌 Backend Setup
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+cd backend
+npm install
+# Create .env file
+# MONGODB_URI=your_mongo_uri
+# JWT_SECRET=your_jwt_secret
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+node index.js
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### 💻 Frontend Setup
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+cd frontend
+npm install
+npm start
+```
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 🔑 Environment Variables
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```env
+MONGODB_URI=mongodb+srv://<user>:<pass>@cluster.mongodb.net/codesync
+JWT_SECRET=supersecretkey
+```
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 📸 Screenshots
 
-### Analyzing the Bundle Size
+| Dashboard View                       | Live Collaboration                   |
+| ------------------------------------ | ------------------------------------ |
+|![image](https://github.com/user-attachments/assets/ccb64f1b-c3d2-4e13-aa29-a3ab1fad3c35)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### 📂 Folder Structure (Brief)
 
-### Advanced Configuration
+```
+codesync/
+│
+├── backend/
+│   ├── router/
+│   ├── model/
+│   ├── middleware/
+│   └── index.js
+│
+├── frontend/
+│   ├── src/
+│   │   ├── pages/
+│   │   ├── components/
+│   │   └── App.jsx
+│   └── package.json
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+### 💡 Future Improvements (Optional)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+* 🧠 AI Assistant Suggestions (via OpenAI)
+* 👨‍💻 Multi-language Support (C++, Java, etc.)
+* 🌐 Deployment on Vercel + Render
+* 📱 PWA Support (Mobile App Look & Feel)
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 📢 Author
+
+* 💼 Name: Atish
+* 🎓 Engineering in AI & DS
+* 📫 Connect on [LinkedIn]([https://linkedin.com](https://www.linkedin.com/in/atish-shinde-219154247?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app))
+
+---
+
+### ⭐ GitHub Tagline
+
+> “A collaborative coding platform for pair programming, learning, and live interviews.”
+
+---
+
+**Bhai bas isko copy-paste kar le `README.md` mein aur tera project poora shine karega 💎.**
+Chahe toh me tera GitHub README bana ke de dun with formatting. Bol.
